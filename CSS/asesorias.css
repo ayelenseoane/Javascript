@@ -1,0 +1,127 @@
+/* <!--Nav--> */
+
+.menu {
+  background-color: #f5b7c1;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu a:hover {
+  background: #e49cc8;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+/* <!--Main--> */
+/* <!--Tabla--> */
+
+.table {
+  background-color: rgb(248, 220, 225);
+  margin-top: 5%;
+  padding: 10%;
+  width: 90%;
+  margin-left: 5%;
+}
+.titulo {
+  text-decoration: underline grey;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: grey;
+  size: 30px;
+  margin-top: 10px;
+}
+/* <!--Texto e imagen--> */
+.baño {
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+.imgbaño {
+  padding: 10px;
+  border-top: 20%;
+  max-width: 100%;
+  box-shadow: 10px 5px 5px grey;
+  width: 500px;
+  height: 400px;
+}
+.asesorias {
+  background-image: linear-gradient(to left, white, rgb(248, 203, 210));
+  border-radius: 10px;
+  justify-content: center;
+  padding: 70px;
+  font-size: 20px;
+}
+#sus {
+  margin-top: 2%;
+}
+/*cards de JS*/
+#imprimirAsesorias {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5vh 5vw;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+}
+.compra {
+  display: none;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: grey;
+  size: 30px;
+  margin-top: 10px;
+}
+/* <!--Footer--> */
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(204, 199, 199);
+  color: grey;
+  text-align: center;
+  background-size: cover;
+  margin-top: 10%;
+}
+.img {
+  width: 20px;
+  margin: 10px;
+}
+
+.footer a:hover {
+  background-color: rgb(224, 220, 220);
+}
+
+@media (max-width: 576px) {
+  .imgbaño {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+  }
+  .asesorias {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .asesorias {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .imgbaño {
+    width: 100%;
+    margin-left: 40%;
+  }
+}
